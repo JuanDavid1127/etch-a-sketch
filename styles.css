@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+.sketch-container {
+    width: 960px;
+    padding: 20px;
+    outline: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    outline: 1px solid black;
+    aspect-ratio: 1 / 1;
+    
+}
+.active {
+    background-color: black;
+}
